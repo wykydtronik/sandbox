@@ -1,0 +1,26 @@
+<html>
+<head>
+  <title>Playing With Objects</title>
+  <script>
+    var hotel = {
+      name: 'Quay',
+      rooms: 40,
+      booked: 25,
+      gym: true,
+      roomTypes: ['twin', 'double', 'suite'],
+      checkAvailability: function() {
+        return this.rooms - this.booked;
+      }
+    }
+
+    var hotelName = hotel.name;
+    var roomsFree = hotel.checkAvailability();
+  </script>
+</head>
+<body>
+<script>
+  document.write("Hotel Name: " + hotelName + "</br>");
+  document.write("Room's Available: " + roomsFree + "</br>");
+</script>
+</body>
+</html>
