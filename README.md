@@ -1,7 +1,7 @@
-sandbox-php
+sandbox
 ===========
 
-Just a sandbox repository of snippets as I play with PHP. *Nothing to see here.*
+Just a sandbox repository of snippets as I play with PHP, JS, etc. *Nothing to see here.*
 
 In this repository, you will find:
 * basic PHP coding from tutorials and books
