@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <title>Browser Height</title>
+    <style>
+      #output {
+        background-color:#00EEFF;
+        width:100px;
+        padding-left:50px;
+      }
+    </style>
+    <script>
+      var h = window.innerHeight;
+      document.getElementById('output').innerHTML= h;
+    </script>
+  </head>
+  <body>
+    <h2>Height of Browseer Window</h2>
+    <div id = "output" onMouseOver = "showHeight();"</div>
