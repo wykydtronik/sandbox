@@ -1,0 +1,30 @@
+<html>
+<head>
+  <title>Checking Scores</title>
+  <script>
+
+    function yourGrade(){
+      var score = prompt("What score did you get?");
+      document.getElementById('results').innerHTML = ("Your grade is: ")
+      if (score>90)
+        document.getElementById('results').innerHTML+="A";
+      else if (score>80)
+        document.getElementById('results').innerHTML+="B";
+      else if (score>70)
+        document.getElementById('results').innerHTML+="C";
+      else if (score>60)
+        document.getElementById('results').innerHTML+="D";
+      else
+        document.getElementById('results').innerHTML+="You failed, GOOD DAY SIR!";
+
+    }
+  </script>
+</head>
+<body>
+  <div id="results"></div>
+  <p>Clicky</p>
+  <form>
+    <input type="button" value="Input Score" onclick="yourGrade();" />
+  </form>
+</body>
+</html>
