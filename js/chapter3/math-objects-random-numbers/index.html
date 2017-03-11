@@ -1,0 +1,30 @@
+<html>
+<head>
+  <title>Decimal Numbers</title>
+  <script>
+    function randomNum() {
+      var randomNum = Math.floor((Math.random() * 10) + 1);
+      document.getElementById('info').innerHTML = randomNum;
+
+      var pi = Math.PI;
+      document.getElementById('pi').innerHTML = pi;
+
+      var roundNum = Math.round(pi);
+      document.getElementById('originalNum').innerHTML = pi;
+      document.getElementById('roundNum').innerHTML = roundNum;
+    }
+  </script>
+</head>
+<body onload="randomNum()">
+  <h2>Random Number Below</h2>
+  <div id="info"></div>
+
+  <h2>Math Objects</h2>
+  <h3>Pi</h3>
+  <div id="pi"></div>
+
+  <h2>Round</h2>
+  <div id="originalNum"></div>
+  <div id="roundNum"></div>
+</body>
+</html>
