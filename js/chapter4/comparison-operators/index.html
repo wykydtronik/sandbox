@@ -1,0 +1,23 @@
+<html>
+<head>
+  <title>Simple Comparison</title>
+  <script>
+    // simple comparison in javascript
+    function theAnswer() {
+      var pass = 50; // Pass Mark
+      var score = 90; // Score
+
+      // Check if the user has passed
+      var hasPassed = score >= pass;
+
+      // Write
+      var el = document.getElementById('answer');
+      el.textContent = 'Level passed: ' + hasPassed;
+    }
+  </script>
+
+</head>
+<body onload="theAnswer()">
+<div id='answer'></div>
+</body>
+</html>
