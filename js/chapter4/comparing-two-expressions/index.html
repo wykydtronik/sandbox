@@ -1,0 +1,25 @@
+<html>
+<head>
+  <title>Comparing Two Expressions</title>
+  <script>
+    // simple comparison in javascript
+    function theAnswer() {
+      var score1 = 90;
+      var score2 = 95;
+      var highScore1 = 75;
+      var highScore2 = 95;
+
+      // Check
+      var comparison = (score1 + score2) > (highScore1 + highScore2);
+
+      // Write
+      var el = document.getElementById('answer');
+      el.textContent = 'New high score: ' + comparison;
+    }
+  </script>
+
+</head>
+<body onload="theAnswer()">
+<div id='answer'></div>
+</body>
+</html>
