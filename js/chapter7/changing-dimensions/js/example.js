@@ -1,6 +1,6 @@
 function dojQuery() {
   $(function() {
-    var listHeight = $('page').height();
+    var listHeight = $('#page').height();
     $('ul').append('<p>Height: ' + listHeight + 'px</p>');
     $('li').width('50%');
     $('li#one').width(125);
