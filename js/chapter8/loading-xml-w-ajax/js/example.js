@@ -17,7 +17,7 @@ xhr.onload = function () {
 
       location = document.createElement('p');
       city = document.createElement('b');
-      newline = document.createElement('b');
+      newline = document.createElement('br');
       city.appendChild(document.createTextNode(getNodeValue(events[i], 'location')));
       location.appendChild(newline);
       location.insertBefore(city, newline);
