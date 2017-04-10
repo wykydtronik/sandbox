@@ -17,17 +17,17 @@ showEvents ({
   "events": [
     {
       "location": "San Francisco, CA",
-      "date": "May 1",
+      "date": "May 1 2017",
       "map": "img/map-ca.png"
     },
     {
       "location": "Austin, TX",
-      "date": "May 15",
+      "date": "May 15 2017",
       "map": "img/map-tx.png"
     },
     {
       "location": "New York, NY",
-      "date": "May 30",
+      "date": "May 30 2017",
       "map": "img/map-ny.png"
     }
   ]
